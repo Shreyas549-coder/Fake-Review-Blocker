@@ -1,4 +1,4 @@
-const checkbox = document.getElementById("myCheckbox");
+const checkbox = document.getElementById("myCheckBox");
 
 const statusLabel = document.getElementById("statusLabel");
 
