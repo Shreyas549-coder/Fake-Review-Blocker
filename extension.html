@@ -15,5 +15,25 @@
         <h4 id="statusLabel">Disabled</h4>
     </div>
 </body>
-<script src="./script.js"></script>
+<script>
+    const checkbox = document.getElementById("myCheckbox");
+
+    const statusLabel = document.getElementById("statusLabel");
+    
+    
+    
+    checkbox.addEventListener("change", function() {
+    
+      if (checkbox.checked) {
+    
+        statusLabel.textContent = "Enable"; 
+    
+      } else {
+    
+        statusLabel.textContent = "Disable";
+    
+      }
+    
+    });
+</script>
 </html>
